@@ -88,6 +88,9 @@
 		EF58012C1D8275F2009295F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Adam Soto";
 				TargetAttributes = {

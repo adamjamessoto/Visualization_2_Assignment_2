@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FD77BA01D85ADD600351D59 /* color library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FD77B9E1D85ADD600351D59 /* color library.cpp */; };
 		EF5801381D8275F2009295F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5801371D8275F2009295F4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7FD77B9E1D85ADD600351D59 /* color library.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "color library.cpp"; sourceTree = "<group>"; };
+		7FD77B9F1D85ADD600351D59 /* color library.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "color library.hpp"; sourceTree = "<group>"; };
 		EF5801341D8275F2009295F4 /* Assignment_2_Ascii_Art */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment_2_Ascii_Art; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5801371D8275F2009295F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EF5801371D8275F2009295F4 /* main.cpp */,
+				7FD77B9E1D85ADD600351D59 /* color library.cpp */,
+				7FD77B9F1D85ADD600351D59 /* color library.hpp */,
 			);
 			path = Assignment_2_Ascii_Art;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD77BA01D85ADD600351D59 /* color library.cpp in Sources */,
 				EF5801381D8275F2009295F4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +246,7 @@
 				EF58013D1D8275F2009295F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

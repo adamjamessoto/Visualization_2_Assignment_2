@@ -6,14 +6,17 @@
 //  Copyright © 2016 Adam Soto. All rights reserved.
 //
 
+#include "color library.cpp"
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
+    Color::Modifier red(Color::FG_RED);
+    Color::Modifier blue(Color::FG_BLUE);
     // insert code here...
-    std::cout << "                                                                                                   .**++***, " << std::endl;
+    std::cout << red <<"                                                                                                   redredred .**++***, " << std::endl;
     std::cout << "                                                                                                 *++++++#+++++* " << std::endl;
     std::cout << "                                                                                           :. ,*+++++++*++++++++* " << std::endl;
-    std::cout << "                                                                                          :  ,*++#+++++++++++++++++ " << std::endl;
+    std::cout << blue <<"                                                                                        blue blue blue  :  ,*++#+++++++++++++++++ " << std::endl;
     std::cout << "                                                                                         .  *+++++#+++++++++**####*+, " << std::endl;
     std::cout << "                                                                                           #++++++++*##*+++++++++++++, " << std::endl;
     std::cout << "                                                                                        , #+++++++++++++++++++++++++++:, " << std::endl;
